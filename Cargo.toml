@@ -2,6 +2,14 @@
 name = "citrinet-rs"
 version = "0.1.0"
 edition = "2024"
+license = "MIT"
+description = "Minimal Citrinet speech-to-text inference using ONNX Runtime and kaldi-native-fbank in Rust."
+readme = "README.md"
+repository = "https://github.com/RustedBytes/citrinet-rs"
+homepage = "https://github.com/RustedBytes/citrinet-rs"
+documentation = "https://docs.rs/citrinet-rs"
+keywords = ["citrinet", "speech", "asr", "onnx", "audio"]
+categories = ["multimedia::audio", "command-line-utilities"]
 
 [dependencies]
 hound = "3.5.1"
