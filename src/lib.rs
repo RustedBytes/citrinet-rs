@@ -67,6 +67,12 @@ impl From<ort::Error> for CitrinetError {
     }
 }
 
+impl From<ort::Error<ort::session::builder::SessionBuilder>> for CitrinetError {
+    fn from(value: ort::Error<ort::session::builder::SessionBuilder>) -> Self {
+        Self::Ort(value.into())
+    }
+}
+
 pub struct Citrinet {
     session: Session,
     tokens: Vec<String>,

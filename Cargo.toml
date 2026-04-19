@@ -1,6 +1,6 @@
 [package]
 name = "citrinet-rs"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 license = "MIT"
 description = "Minimal Citrinet speech-to-text inference using ONNX Runtime and kaldi-native-fbank in Rust."
@@ -14,5 +14,5 @@ categories = ["multimedia::audio", "command-line-utilities"]
 [dependencies]
 hound = "3.5.1"
 kaldi-native-fbank = "0.1.0"
-ort = "2.0.0-rc.11"
-clap = { version = "4.5.20", features = ["derive"] }
+ort = "2.0.0-rc.12"
+clap = { version = "4.6", features = ["derive"] }
